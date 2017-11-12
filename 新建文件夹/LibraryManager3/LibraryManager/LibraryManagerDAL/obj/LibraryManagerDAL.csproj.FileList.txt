@@ -1,7 +1,0 @@
-bin\Debug\LibraryManagerDAL.dll
-bin\Debug\LibraryManagerDAL.pdb
-bin\Debug\LibraryManagerModels.dll
-bin\Debug\LibraryManagerModels.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\LibraryManagerDAL.dll
-obj\Debug\LibraryManagerDAL.pdb
