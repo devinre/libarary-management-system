@@ -1,0 +1,5 @@
+bin\Debug\LibraryManagerModels.dll
+bin\Debug\LibraryManagerModels.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LibraryManagerModels.dll
+obj\Debug\LibraryManagerModels.pdb

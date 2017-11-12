@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/addbook.png</file>
+        <file>icon/addbooktitle.png</file>
+        <file>icon/adduser.png</file>
+        <file>icon/booklist.png</file>
+        <file>icon/bookmanage.png</file>
+        <file>icon/bookstat.png</file>
+        <file>icon/closeGPS.png</file>
+        <file>icon/delbook.png</file>
+        <file>icon/delbooktitle.png</file>
+        <file>icon/deluser.png</file>
+        <file>icon/exit.png</file>
+        <file>icon/help.png</file>
+        <file>icon/lendbook.png</file>
+        <file>icon/lendlist.png</file>
+        <file>icon/lendrecord.png</file>
+        <file>icon/logmanage.png</file>
+        <file>icon/overduerecord.png</file>
+        <file>icon/pwdmodify.png</file>
+        <file>icon/querybook.png</file>
+        <file>icon/reader.png</file>
+        <file>icon/renewal .png</file>
+        <file>icon/returnbook.png</file>
+        <file>icon/showGPS.png</file>
+        <file>icon/system.png</file>
+        <file>icon/usermanage.png</file>
+        <file>icon/usertable.png</file>
+        <file>icon/login.png</file>
+        <file>icon/logout.png</file>
+        <file>icon/failure.png</file>
+        <file>icon/success.png</file>
+        <file>icon/notoverdue.png</file>
+        <file>icon/overdue.png</file>
+        <file>icon/InLibrary.png</file>
+        <file>icon/inlibrary.png</file>
+        <file>icon/lend.png</file>
+        <file>icon/lost.png</file>
+        <file>icon/male.png</file>
+        <file>icon/female.png</file>
+        <file>icon/lib.ico</file>
+        <file>icon/connserver.png</file>
+        <file>icon/booklog.png</file>
+        <file>icon/userlog.png</file>
+        <file>icon/search.png</file>
+    </qresource>
+</RCC>

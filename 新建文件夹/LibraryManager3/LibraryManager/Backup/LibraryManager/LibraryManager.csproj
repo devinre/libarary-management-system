@@ -1,0 +1,301 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E45DBD5-AFC1-4B6C-91F2-EA4BCF0B1C2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibraryManager</RootNamespace>
+    <AssemblyName>LibraryManager</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddBookType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddBookType.Designer.cs">
+      <DependentUpon>FormAddBookType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddMoney.Designer.cs">
+      <DependentUpon>FormAddMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBookMess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBookMess.Designer.cs">
+      <DependentUpon>FormBookMess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewBook.Designer.cs">
+      <DependentUpon>FormNewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBookManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBookManager.Designer.cs">
+      <DependentUpon>FormBookManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPicture.designer.cs">
+      <DependentUpon>FormPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPriceManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPriceManager.Designer.cs">
+      <DependentUpon>FormPriceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCardManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCardManager.Designer.cs">
+      <DependentUpon>FormCardManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLendManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLendManager.Designer.cs">
+      <DependentUpon>FormLendManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReturnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReturnBook.Designer.cs">
+      <DependentUpon>FormReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkin.designer.cs">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdataPWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdataPWD.designer.cs">
+      <DependentUpon>FormUpdataPWD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser.designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserManager.designer.cs">
+      <DependentUpon>FormUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserTable.Designer.cs">
+      <DependentUpon>FormUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuallyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsuallyControl.designer.cs">
+      <DependentUpon>UsuallyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddBookType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAddBookType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddMoney.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAddMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBookMess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormBookMess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewBook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormNewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBookManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormBookManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCardManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormCardManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLendManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLendManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPicture.resx">
+      <DependentUpon>FormPicture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPriceManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPriceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReturnBook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkin.resx">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdataPWD.resx">
+      <DependentUpon>FormUpdataPWD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserManager.resx">
+      <DependentUpon>FormUserManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserTable.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuallyControl.resx">
+      <DependentUpon>UsuallyControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiChangControl.resx">
+      <DependentUpon>RiChangControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemControl.resx">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookManagerControl.resx">
+      <DependentUpon>BookManagerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RiChangControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RiChangControl.designer.cs">
+      <DependentUpon>RiChangControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemControl.designer.cs">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookManagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookManagerControl.designer.cs">
+      <DependentUpon>BookManagerControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryManagerBLL\LibraryManagerBLL.csproj">
+      <Project>{E5618512-FE54-49D8-9AEF-9CE70E93D52C}</Project>
+      <Name>LibraryManagerBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryManagerModels\LibraryManagerModels.csproj">
+      <Project>{E6DCBEE8-FCAD-49D1-8559-D8C49E93C8DC}</Project>
+      <Name>LibraryManagerModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

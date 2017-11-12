@@ -1,0 +1,2 @@
+F:\学习类\S2课程\作业\图书管理系统\LibraryManager\LibraryManager\bin\Debug\LibraryManager.exe.config
+F:\学习类\S2课程\作业\图书管理系统\LibraryManager\LibraryManager\obj\Debug\LibraryManager.pdb

@@ -1,0 +1,9 @@
+bin\Debug\LibraryManagerBLL.dll
+bin\Debug\LibraryManagerBLL.pdb
+bin\Debug\LibraryManagerDAL.dll
+bin\Debug\LibraryManagerModels.dll
+bin\Debug\LibraryManagerDAL.pdb
+bin\Debug\LibraryManagerModels.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LibraryManagerBLL.dll
+obj\Debug\LibraryManagerBLL.pdb
